@@ -35,9 +35,14 @@ body {
   background-size: cover;
 }
 body {
-  color: #fff;
+  color: #333;  /* Julia: adjust font colors */
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+/* Julia: customize for font text */
+.lead {
+  font-size: 18px;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -56,6 +61,11 @@ body {
 .cover-container {
   margin-right: auto;
   margin-left: auto;
+  background: rgba(253,255,255,.4); /* Julia: changing background color/transparency */
+  padding: .2em;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
 }
 
 /* Padding for spacing */
@@ -163,6 +173,6 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 700px;
+    width: 960px;
   }
 }
